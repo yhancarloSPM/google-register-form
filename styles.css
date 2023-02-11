@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+body {
+  background-color: #161717;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 100px;
+  font-size: 24px;
+  padding: 5px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.google-btn {
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  width: 250px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.google-btn span {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.google-btn picture {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.twitter-btn {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: lef;
+  cursor: pointer;
+}
+
+.twitter-btn picture {
+  width: 50px;
+  height: 26px;
+  background-color: white;
+  border-radius: 2px;
+  background-color: red;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 100px;
+  gap: 20px;
+}
+
+.google-btn picture img {
+  width: 30px;
+}
+
+.twitter-btn picture img {
+  width: 50px;
+}
+
+.separator {
+  display: flex;
+  justify-content: left;
+  justify-items: center;
+  margin-left: 100px;
+  gap: 10px;
+}
+
+.separator hr {
+  width: 170px;
+  height: 0px;
+}
+
+.separator span {
+  line-height: 0px;
+  color: white;
+}
+
+.inputs label {
+  display: block;
+  width: 30%;
+}
+
+.google-btn :hover {
+  opacity: 0.75;
+}
+
+.twitter-btn :hover {
+  opacity: 0.75;
+  background-color: #e5e5e5;
+}
+
+label span {
+  font-weight: 600;
+  color: white;
+}
+
+input[type="text"] {
+  border: none;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #212121;
+  opacity: 0.4;
+  margin-top: 5px;
+}
+
+#password::placeholder {
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: solid 1px #f082ac;
+  background-color: #454045;
+  animation: alternate 2ms;
+  box-shadow: 0px 0px 1px 0.5px #f082ac;
+}
+
+input[type="text"]:hover {
+  outline: none;
+  border: solid 1px #f082ac;
+  background-color: #454045;
+  animation: alternate 2ms;
+  box-shadow: 0px 0px 1px 0.5px #f082ac;
+}
+
+button[type="submit"] {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ea4c89;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.75;
+}
+
+#term {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
