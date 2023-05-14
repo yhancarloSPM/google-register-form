@@ -34,7 +34,7 @@ Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
 
 Para vizualizar la pagina en linea :point_down:
 
-Link del ejercicio resuelto [Google Register Form](https://yhancarlospm.github.io/Google-register-form---open-bootcamp/).
+Link del ejercicio resuelto [Google Register Form](https://yhancarlospm.github.io/google-register-form/).
 
 ***
 
